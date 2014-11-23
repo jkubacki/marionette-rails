@@ -1,5 +1,3 @@
-console.log @
-
 @Demo = do (Backbone, Marionette) ->
  
   App = new Marionette.Application

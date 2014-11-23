@@ -3,4 +3,8 @@
   Show.Controller = 
 
     showFooter: ->
-      console.log 'inside showFooter'
+      footerView = @getFooterView()
+      App.footerRegion.show footerView
+    
+    getFooterView: ->
+      new Show.Footer
