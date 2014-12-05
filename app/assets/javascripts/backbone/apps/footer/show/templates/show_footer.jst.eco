@@ -1,1 +1,5 @@
-footer content!
+<div id="footer">
+  <div class="container">
+    <p class="muted">This is a hell of the footer.</p>
+  </div>
+</div>
